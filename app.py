@@ -28,8 +28,8 @@ import time
 app = Flask(__name__,template_folder='templates')
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 
-CHANNEL_ACCESS_TOKEN = "你的CHANNEL_ACCESS_TOKEN"
-CHANNEL_SECRET = '你的CHANNEL_SECRET'
+CHANNEL_ACCESS_TOKEN = "vMhGfgeyjF89P5BBQP6isoidP1KGRciYiMk6FWzvqEsEiLQh3PrAyqJoKoeOslYj4GIgChPSHfBBLKNlbrQ8Dy0k0ZcZRCFWevdUh/e39iN6svUMNL7GoPuZ4+WurFA8N7xvoU0vNwCy1U6wb0g4EQdB04t89/1O/w1cDnyilFU="
+CHANNEL_SECRET = '12bc97660203787e5e47675120da8fcb'
 
 liff_api = LIFF(CHANNEL_ACCESS_TOKEN)
 line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
